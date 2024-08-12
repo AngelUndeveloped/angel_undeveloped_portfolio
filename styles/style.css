@@ -1,0 +1,66 @@
+/* colors, we need a dark color for the background */
+/* a light color for section titles */
+/* lighter version of the dark color for the hero section */
+/* bright color for buttons and links */
+/* color for strong elements */
+/* I am going to use tailwind colors: https://tailwindcss.com/docs/customizing-colors */
+
+:root {
+    --clr-dark:         #0a0a0a;    /* neutral 950 */
+    --clr-light:        #f5f5f5;    /* neutral 100*/
+    --clr-neutral400:   #a3a3a3;
+    --clr-neutral600:   #525252;
+    --clr-neutral800:   #27272a;
+    --clr-slate600:     #475569;
+    --clr-slate800:     #1e293b;
+    --clr-rose:         #e11d48;    /* rose 600 */
+    --clr-violet:       #9333ea;    /* violet 600 */
+    --clr-indigo:       #4f46e5;    /* indigo 600 */
+    --clr-blue:         #2563eb;    /* blue 600 */
+    /* violet rgb(147,51,234) */
+    /* blue rgb(37,99,235) */
+
+
+}
+
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nippo', sans-serif;
+    background-color: var(--clr-dark);
+    color: var(--clr-light)
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a {
+    color: var(--clr-violet);
+}
+
+strong {
+    color: var(--clr-blue);
+}
