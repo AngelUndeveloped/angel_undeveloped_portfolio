@@ -38,12 +38,13 @@
     flex-direction: column;
     gap: 1em;
     list-style-type: '\2606';
+    /* list-style-type: '\1F44D'; */
     padding-left: 1em;
     flex: 1;
 }
 
 .about_me__list_element {
-    font-size: var(--clr-sm);
+    font-size: var(--size-sm);
     color: var(--clr_neutral600);
 }
 
@@ -78,18 +79,8 @@
         display: flex;
     }
     
-    .about_me__tech_list {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-        list-style-type: '\2606';
-        padding-left: 1em;
-        flex: 1;
-    }
-    
     .about_me__list_element {
-        font-size: var(--clr-sm);
-        color: var(--clr_neutral600);
+        font-size: var(--size-base);
     }
     
     .about_me__list_element::before {
@@ -98,8 +89,18 @@
     }
 }
 
-/* ms */
-/* @media (min-width: 640px) {} */
+/* sm */
+@media (min-width: 640px) {
+    /* 1 rem = 16 px */
+    /* 304 / 16 = 19 */
+    .about__img-wrapper {
+        margin: 0 auto;
+    }
+    
+    .about_img {
+        width: 19rem
+    }
+}
 
 /* md */
 /* @media (min-width: 768px) {} */
@@ -110,11 +111,56 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-direction: row;
+    }
+ 
+    .about_me__title {
+        font-size: var(--size-4xl);
+    }
+    
+    .about_me__description {
+        font-size: var(--size-lg);
+    }
+    
+    .about_me__subtitle {
+        font-size: var(--size-lg);
+    }
+
+    .about_me__list_element {
+        font-size: var(--size-lg);
     }
 }
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+    .about_me {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about_me__content {
+        gap: 2rem;
+   }
+   
+    .about_me__title {
+        font-size: var(--size-5xl);
+    }
+    
+    .about_me__description {
+        font-size: var(--size-xl);
+    }
+    
+    .about_me__subtitle {
+        font-size: var(--size-xl);
+    }
+
+    .about_me__list_element {
+        font-size: var(--size-xl);
+    }
+
+    .about__img {
+        /* have not made the calculation for correct size */
+        width: 25rem;
+    }
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */

@@ -1,0 +1,116 @@
+.featured_subtitle {
+    font-size: var(--size-sm);
+    color: var(--clr-blue);
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.featured__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.featured_title {
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+    text-transform: capitalize;
+}
+
+.featured__link {
+    display: block;
+    width: var(--size-2xl);
+    height: var(--size-2xl);
+}
+
+.featured__description {
+    max-width: 60ch;
+    color: var(---clr-neutral600);
+    font-size: var(--size-sm);
+    margin: 1rem 0;
+}
+
+.featured__label {
+    font-size: var(--size-base);
+    text-transform: capitalize;
+    margin-bottom: 0.25em;
+}
+
+.featured__tech-stack {
+    
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .featured_subtitle {
+        font-size: var(--size-base);
+        color: var(--clr-blue);
+    }
+
+    .about_title {
+        font-size: var(--size-3xl);
+    }
+
+    .featured__link {
+        display: block;
+        width: var(--size-3xl);
+        height: var(--size-3xl);
+    }
+
+    .featured__description {
+        font-size: var(--size-base);
+        margin: 1.5rem 0;
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+    .featured_subtitle {
+        font-size: var(--size-lg);
+    }
+    
+    .featured_title {
+        font-size: var(--size-4xl);
+    }
+
+    .featured__link {
+        display: block;
+        width: var(--size-4xl);
+        height: var(--size-4xl);
+    }
+
+    .featured__description {
+        font-size: var(--size-lg);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .featured_subtitle {
+        font-size: var(--size-xl);
+    }
+    
+    .featured_title {
+        font-size: var(--size-5xl);
+    }
+
+    .featured__link {
+        display: block;
+        width: var(--size-5xl);
+        height: var(--size-5xl);
+    }
+
+    .featured__description {
+        font-size: var(--size-xl);
+        margin: 2rem 0;
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
