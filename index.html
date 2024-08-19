@@ -18,7 +18,7 @@
     <nav>
       <ul class="header__menu">
         <li><a class="header__link" href="#about">About</a></li>
-        <li><a class="header__link" href="#projects">Projects</a></li>
+        <li><a class="header__link" href="#featured">Featured</a></li>
         <li><a class="header__link" href="#contact">Contact</a></li>
         <li class="header__line"></li>
         <li>
@@ -30,7 +30,8 @@
           </button>
         </li>
         <li>
-          <a class="header__resume btn" href="#">Resume</a>
+          <!-- Keep the call to action buttons off untill i have a use for them -->
+          <!-- <a class="header__resume btn" href="#">Resume</a> -->
         </li>
       </ul>
       <button aria-label="mobile nav button" class="header__bars">
@@ -50,7 +51,7 @@
           <a class="mobile-nav__link" href="#about">About</a>
         </li>
         <li>
-          <a class="mobile-nav__link" href="#projects">Projects</a>
+          <a class="mobile-nav__link" href="#featured">Featured</a>
         </li>
         <li>
           <a class="mobile-nav__link" href="#contact">Contact</a>
@@ -65,7 +66,7 @@
           </button>
         </li>
         <li>
-          <a class="mobile-nav__btn btn" href="#">Resume</a>
+          <!-- <a class="mobile-nav__btn btn" href="#">Resume</a> -->
         </li>
       </ul>
     </nav>
@@ -84,7 +85,7 @@
         </li>
         <li>
           <h2 class="hero__subtitle">
-            Hello there! I'm Yair!
+            Hello there! I'm Angel!.
           </h2>
         </li>
         <li>
@@ -97,40 +98,70 @@
       <h1 class="hero__title"><strong>Backend Software Developer</strong> <br> Architecture Associate <br> <a>Data and
           AI enthusiast.</a></h1>
       <p class="hero__description">
-        I am a software developer (Backend) with an enthusiasm for data and Artificial Intelligence.
+        I am a software developer (Backend) with an enthusiasm for data and Artificial Intelligence. My personal motto is "Strive to Learn."
       </p>
-      <a class="hero__btn btn" href="#">Reach out</a>
+      <!-- Lets keep hidden the call to action buttons until there is actaully a use for them -->
+      <!-- <a class="hero__btn btn" href="#">Reach out</a> -->
     </section>
+
     <section id="about" class="about container section">
       <div class="about__content">
         <h2 class="about__title">About</h2>
-        <p class="about__description">Paragraph 1. This is <a>filler</a> words.</p>
-        <p class="about__description">Paragraph 2. This is <strong>filler</strong> words.</p>
-        <p class="about__description">Paragraph 3. This is filler words.</p>
+        <p class="about__description">
+          <Software Developer at BBVA >
+            Working on Big Data Projects | Aspiring AI Engineer | Java Spark | Python | Spring Framework | System Design| <br><br>
+            
+            I am Angel Yair, a dedicated Software Developer currently contributing to exciting big data projects at BBVA. With a background in mechatronics engineering, I bring a unique perspective to software development, focusing on leveraging advanced technologies to drive innovation.
+            <br><br>
+            In my current role, I play a key role in projects centered around big data, utilizing technologies like Java Spark to process and analyze large datasets efficiently. Proficient in Java, Python, Spring Framework, with skills in system design, I excel in architecting and implementing scalable solutions to address complex challenges.
+            <br><br>
+            Driven by a passion for continuous learning, I'm currently expanding my skill set to include AI engineering. With a keen interest in AI technologies, I'm actively pursuing opportunities to deepen my understanding and apply AI concepts to enhance our projects.
+            <br><br>
+            Fluent in Spanish and English, I thrive in collaborative team environments and excel in delivering high-quality results under tight deadlines. I'm always eager to explore new opportunities and collaborate with like-minded professionals.
+            <br><br>
+            Note: Yes this is just a copy of my linkedin profile. This will be update.
         <hr class="about__hr">
         <h3 class="about__subtitle">Technologies</h3>
+        <p class="about__description">There is a lot of tech I've used and plan to learn. Here are some of the more important ones.</p>
         <div class="about__ul-container">
           <ul class="about__ul">
-            <li class="about__list">Technology 1</li>
-            <li class="about__list">Technology 2</li>
-            <li class="about__list">Technology 3</li>
+            <li class="about__list"><strong>Tech</strong></li>
+            <hr class="about__hr">
+            <li class="about__list">Python</li>
+            <li class="about__list">Java</li>
+            <li class="about__list">SQL</li>
+            <li class="about__list">LLama 3.1</li>
           </ul>
           <ul class="about__ul">
-            <li class="about__list">Technology 4</li>
-            <li class="about__list">Technology 5</li>
-            <li class="about__list">Technology 6</li>
+            <li class="about__list"><strong>Frameworks</strong></li>
+            <hr class="about__hr">
+            <li class="about__list">Pytorch</li>
+            <li class="about__list">Tenserflow</li>
+            <li class="about__list">Apache Spark</li>
+            <li class="about__list">Spring Framework</li>
+            <li class="about__list">Langchain</li>
+          </ul>
+          <ul class="about__ul">
+            <li class="about__list"><strong>Learning</strong></li>
+            <hr class="about__hr">
+            <li class="about__list">Supabase running locally (linux)</li>
+            <li class="about__list">Deep Learning Specialization</li>
+            <li class="about__list">Neural Networks: Zero to Hero</li>
+            <li class="about__list">HTMX</li>
           </ul>
         </div>
       </div>
       <div class="about__img-wrapper">
-        <img class="about_img" src="https://via.placeholder.com/720"
-          data-src="/public/me_standing_in_front_of_pyramid.jpg" alt="about_image">
+        <!-- The pyramid image default size is 746 x 991 also removed the lazy loading for now, can't get it to work yet -->
+        <!-- <img class="about_img" src="https://fakeimg.pl/746x991/cccccc/909090" data-src="/public/me_standing_in_front_of_pyramid.jpg" alt="about_image"> -->
+        <img class="about_img" src="/public/me_standing_in_front_of_pyramid.jpg" alt="about_image">
       </div>
     </section>
+
     <section id="featured" class="featured container section">
-      <h3 class="featured__subtitle">Featured projects</h3>
+      <h3 class="featured__subtitle"><strong>Currently working on:</strong></h3>
       <div class="featured__wrapper">
-        <h2 class="featured__title">Main Project (maybe the current top project)</h2>
+        <h2 class="featured__title">Deep Learning Course</h2>
         <a aria-label="link featured projects" class="featured__link" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor">
@@ -139,10 +170,15 @@
           </svg>
         </a>
       </div>
-      <p class="featured__description">This is where I would put my featured project... If I had one! <br><br>
+      <p class="featured__description">
+        This is where I would put my featured project... If I had one!
+        <br><br>
         But on a more serious note I just got finished with this website and that took longer than I expected. Now I am
-        going to work on finishing my Deep learingin course
-        and finish some neural net projects I have been postponing to builld this website. <br><br>
+        going to work on finishing my Deep learning course
+        and finish some neural net projects I have been postponing to builld this website.
+        <br><br>
+        I'll update this site with some of those projects as soon as I can.
+        <br><br>
         Best regards.
       </p>
       <div class="featured__info-container">
@@ -161,7 +197,9 @@
           <h3 class="featured_label">Project type</h3>
           <p class="featured_label">Neural nets and vision</p>
         </div>
-        <div>
+
+        
+        <!-- <div>
           <h3 class="featured_label">Timeline</h3>
           <p class="featured__info">August 2024 - present</p>
         </div>
@@ -169,7 +207,7 @@
 
       <div class="featured__img-container">
         <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/slayingthedragon.png"
+          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/slayingthed0ragon.png"
             alt="Slaying The Dragon hero" />
         </div>
         <div class="featured__img-wrapper">
@@ -200,7 +238,7 @@
           <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/app.png"
             alt="Slaying The Dragon dashboard" />
         </div>
-      </div>
+      </div> -->
 
     </section>
 
@@ -208,13 +246,11 @@
     <section class="work container section">
       <h2 class="work__title">Projects</h2>
       <p class="work__description">
-        Mollit pariatur tempor nisi dolor non consequat magna cupidatat
-        reprehenderit. Aliquip excepteur ullamco aliquip magna est et commodo
-        deserunt ipsum.
+        Hi. The site is still in progress and will be updated as sooner or later. Thanks for the interest though.
       </p>
-      <div class="work__container">
+      <!-- <div class="work__container"> -->
         <!-- Project 1 -->
-        <h3 class="work__project-title">Wax Motif</h3>
+        <!-- <h3 class="work__project-title">Wax Motif</h3>
         <div class="work__img-wrapper work__image1">
           <img class="lazy loading" src="https://via.placeholder.com/900" data-src="/waxmoney.png"
             alt="Wax Motif website" />
@@ -233,15 +269,22 @@
           </p>
           <a class="btn work__project-btn" href="#">Website</a>
         </div>
-      </div>
+      </div> -->
     </section>
+
     <section id="contact" class="contact container section">
       <h2 class="contact__title">Get In Contact</h2>
       <p class="contact__description">
-        This website is here to stay and my goal is to update as often as possible. If any projects I am working on ever interest you go ahead and contact me. <br>
-        I don't bite. >:p
+        This website is here to stay and my goal is to update as often as possible. If you ever need to reach out to me go ahead and contact me through Linkedin
+        or wait untill I implement a comments section to this website. Eventually...
       </p>
-      <a class="contact__btn btn" href="mailto:angelyairmendezsandoval@gmail.com" target="_blank">React Out</a>
+      <!-- This call to action button is temperaraly stoped -->
+      <!-- <a class="contact__btn btn" href="mailto:angelyairmendezsandoval.io@gmail.com" target="_blank">Reach out</a> -->
+      <div>
+        <a class="contact__btn btn" href="mailto:angelyairmendezsandoval@gmail.com" target="_blank">Send an email</a>
+        <a class="contact__btn btn" href="https://www.linkedin.com/in/angel-yair-mendez-sandoval-08a497144/" target="_blank">Linkedin</a>
+      </div>
+      
     </section>
   </main>
   <footer class="footer container section">
