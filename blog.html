@@ -17,7 +17,7 @@
   <header class="header container">
     <nav>
       <ul class="header__menu">
-        <li><a class="header__link" href="#about">About</a></li>
+        <li><a class="header__link" href="#blog">blog</a></li>
         <li><a class="header__link" href="#featured">Featured</a></li>
         <li><a class="header__link" href="#contact">Contact</a></li>
         <li><a class="header__link" href="index.html">Home</a></li>
@@ -50,7 +50,7 @@
     <nav>
       <ul class="mobile-nav__menu">
         <li>
-          <a class="mobile-nav__link" href="#about">About</a>
+          <a class="mobile-nav__link" href="#blog">blog</a>
         </li>
         <li>
           <a class="mobile-nav__link" href="#featured">Featured</a>
@@ -59,7 +59,7 @@
           <a class="mobile-nav__link" href="#contact">Contact</a>
         </li>
         <li>
-         <a class="mobile-nav__link" href="index.html">Home</a>
+          <a class="mobile-nav__link" href="index.html">Home</a>
         </li>
         <li class="mobile-nav__link-line"></li>
         <li>
@@ -78,250 +78,42 @@
   </div>
   <!-- End of mobile navigation menu -->
   <main>
-    <section class="hero container">
-      <img class="hero__img" src="./aisha_stealing_my_food.jpg" alt="Profile picture">
 
-      <ul class="hero__subtitle">
-        <li>
-          <picture>
-            <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.webp" type="image/webp">
-            <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif" alt="✨" width="32" height="32">
-          </picture>
-        </li>
-        <li>
-          <h2 class="hero__subtitle">
-            Hello there! I'm Angel!.
-          </h2>
-        </li>
-        <li>
-          <picture>
-            <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.webp" type="image/webp">
-            <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.gif" alt="✨" width="32" height="32">
-          </picture>
-        </li>
-      </ul>
-      <h1 class="hero__title"><strong>Backend Software Developer</strong> <br> Architecture Associate <br> <a>Data and
-          AI enthusiast.</a></h1>
-      <p class="hero__description">
-        I am a software developer (Backend) with an enthusiasm for data and Artificial Intelligence. My personal motto
-        is "Strive to Learn."
-        <!-- Lets keep hidden the call to action buttons until there is actaully a use for them -->
-      </p>
-      <!-- <a class="hero__btn btn" href="#">Reach out</a> -->
-    </section>
-
-    <section id="about" class="about container section">
-      <div class="about__content">
-        <h2 class="about__title">About</h2>
-        <p class="about__description">
-          <Software Developer at BBVA>
-            As a dedicated and innovative Software Developer with a passion for Artificial Intelligence and Big Data,
-            I’m excited to bring my unique perspective to the industry. With a background in Mechatronics Engineering
-            and experience working on cutting-edge projects at BBVA, I’ve developed a strong foundation in:
-            <br><br>
-            Programming languages: Python, Java, Spring Framework
-            Big Data technologies: Java Spark, Hadoop, SQL Database like Oracle, DB2
-            System Design and Architecture: Scalable system design, microservices architecture, containerization
-            (Docker)
-            Artificial Intelligence and Machine Learning: PyTorch
-            <br><br>
-            As a Backend Architect, I have the privilege of working with diverse technologies and staying up-to-date
-            with the latest advancements in the field. This requires constant learning and adaptation to resolve complex
-            issues in development environments for other teams’ code. My experience has taught me to:
-            <br><br>
-            Stay ahead of technology curve: Continuously learning new tools and frameworks to ensure seamless
-            integration and optimization.
-            Troubleshoot and debug: Effectively resolving technical incidents, collaborating with cross-functional teams
-            to get projects back on track.
-            In addition to my technical expertise, I possess strong leadership skills, enabling me to:
-            <br><br>
-            Lead teams: Spearheading projects and motivating colleagues to collaborate on high-impact initiatives.
-            Develop skills: Continuously learning new technologies and expanding my skill set to stay ahead of data
-            growth.
-
-            <br><br>
-            My passions include:
-            <br><br>
-            Artificial Intelligence and Machine Learning: Exploring the potential of AI to transform industries and
-            improve current systems.
-            Big Data and Analytics: Unlocking insights from complex data sets to drive business decisions and to make
-            neural nets.
-            Collaboration and Leadership: Fostering effective teams and leading projects to achieve ambitious goals.
-            <hr class="about__hr">
-            <h3 class="about__subtitle">Technologies</h3>
-            <p class="about__description">There is a lot of tech I've used and plan to learn. Here are some of the more
-              important ones.</p>
-            <div class="about__ul-container">
-              <ul class="about__ul">
-                <li class="about__list"><strong>Tech</strong></li>
-                <hr class="about__hr">
-                <li class="about__list">Python</li>
-                <li class="about__list">Java</li>
-                <li class="about__list">SQL</li>
-                <li class="about__list">Deep Learning</li>
-              </ul>
-              <ul class="about__ul">
-                <li class="about__list"><strong>Frameworks</strong></li>
-                <hr class="about__hr">
-                <li class="about__list">Tensorflow</li>
-                <li class="about__list">Apache Spark</li>
-                <li class="about__list">Spring Framework</li>
-                <li class="about__list">Langchain</li>
-              </ul>
-              <ul class="about__ul">
-                <li class="about__list"><strong>Learning</strong></li>
-                <hr class="about__hr">
-                <li class="about__list">Computer Vision</li>
-                <li class="about__list">AWS ML Engineer Associate</li>
-                <li class="about__list">Kotlin</li>
-                <li class="about__list">Android</li>
-              </ul>
-            </div>
-      </div>
-      <div class="about__img-wrapper">
-        <!-- The pyramid image default size is 746 x 991 also removed the lazy loading for now, can't get it to work yet -->
-        <!-- <img class="about_img" src="https://fakeimg.pl/746x991/cccccc/909090" data-src="/public/me_standing_in_front_of_pyramid.jpg" alt="about_image"> -->
-        <img class="about_img" src="/public/me_standing_in_front_of_pyramid.jpg" alt="about_image">
-      </div>
-    </section>
-
-    <section id="featured" class="featured container section">
-      <h3 class="featured__subtitle"><strong>Currently working on:</strong></h3>
-      <div class="featured__wrapper">
-        <h2 class="featured__title">Cat Monitoring System</h2>
-        <a aria-label="link featured projects" class="featured__link" href="https://github.com/AngelUndeveloped/cat_monitoring_system">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-          </svg>
-        </a>
-      </div>
-      <p class="featured__description">
-        Time to apply what I have learned!
-        <br><br>
-        The goal of the project is to build a self-sustaining system to monitor your cats 24/7 to see what shinanigens they commit. 
-        It is a 24/7 real time monitoring system for cats. The system is powered by renewable energy, and connects via WiFi or Bluetooth. 
-        It will notify the user of relevant activities and save recordings. I'll try to implement this in five phases.
-        <br><br>
-        <ul>
-          <li>1. <strong>Basic Detection</strong>: First lets actually implement an object detection system on the computer.</li>
-          <li>2. <strong>App and website</strong>: Make an app and website that can implement the object detection system.</li>
-          <li>3. <strong>LLM</strong>: Implement an llm that will create a summary of important events detected and notify users.</li>
-          <li>4. <strong>Database</strong>: Clips of the cat will be created and saved in a database.</li>
-          <li>5. <strong>Hardware</strong>: Migrate everything to new hardware, physical cameras and use an esp32 or a raspberry as control.</li>
-        </ul>
-        <br><br>
-        I'll update this site with some of those projects as soon as I can.
-        <br><br>
-        Best regards.
-      </p>
-      <div class="featured__info-container">
-        <div>
-          <h3 class="featured__label">Tech stack for my current live projects</h3>
-          <ul class="featured__tech-stack">
-            <li class="featured__info">Python</li>
-            <li class="featured__info">Pytorch and/or Tenserflow</li>
-            <li class="featured__info">Langchain</li>
-            <li class="featured__info">LLama 3.2 1B</li>
+    <section id="blog" class="blog container section">
+      <div class="blog__content">
+        <h1 class="blog__title">Blog</h2>
+          <h2 clas="blog__title">2024-12-01: Streaming pains.</h2>
+          <ul>
+            <li>
+              <p class="blog__description">I am trying to use ffmpeg on an old computer running lubuntu. The idea is to
+                use
+                the inbuilt camera to create a live stream of my living room to see what my cats are doing. <br>
+                The problem right now is getting the live stream to my android device, I am trying to use jetpack
+                composes
+                Media3 to handle the stream but I have not gotten it to work. Plus I suspect that there will be some
+                invevitable network problems. <br><br>
+              </p>
+            </li>
+            <li>
+              <p class="blog__description">Decided to use my website more and implement a blog of my activites since I
+                am not properlly documenting my activities. <br><br></p>
+            </li>
+            <li>
+              <p class="blog__description">I got a client request to help them build a website. It should be done within
+                three weeks plus I'll have help from other devs more experiencce with website design. <br><br></p>
+            </li>
+            <li>
+              <p class="blog__description">Looked into displaying an image on a ST7789 LCD display using an ESP32.
+                Quickly decided learning that was not a priority for now. <br><br></p>
+            </li>
+            <li>
+              <p class="blog__description">Tomorrow I will need to focus on work, so I won't have much time for side projects. Also I reminder to myself that I need to finish my case study for my data analytics course.</p>
+            </li>
           </ul>
-        </div>
-        <div>
-          <h3 class="featured_label">Project type</h3>
-          <p class="featured_label">CNN (YOLO), LLM (LLama 3.2 1B), backend(To be decided), frontend(To be decided)</p>
-        </div>
-
-
-        <!-- <div>
-          <h3 class="featured_label">Timeline</h3>
-          <p class="featured__info">August 2024 - present</p>
-        </div>
       </div>
-
-      <div class="featured__img-container">
-        <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/slayingthed0ragon.png"
-            alt="Slaying The Dragon hero" />
-        </div>
-        <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/courses.png"
-            alt="Slaying The Dragon courses" />
-        </div>
-        <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/pricing.png"
-            alt="Slaying The Dragon pricing" />
-        </div>
-        <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/features.png"
-            alt="Slaying The Dragon features" />
-        </div>
-        <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/faq.png"
-            alt="Slaying The Dragon faqs" />
-        </div>
-        <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/blog.png"
-            alt="Slaying The Dragon blog" />
-        </div>
-        <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/signin.png"
-            alt="Slaying The Dragon sign-in" />
-        </div>
-        <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://via.placeholder.com/1920x968" data-src="/app.png"
-            alt="Slaying The Dragon dashboard" />
-        </div>
-      </div> -->
-
-    </section>
-
-
-    <section class="work container section">
-      <h2 class="work__title">Projects</h2>
-      <p class="work__description">
-        Hi. The site is still in progress and will be updated as sooner or later. Thanks for the interest though.
-      </p>
-      <!-- <div class="work__container"> -->
-      <!-- Project 1 -->
-      <!-- <h3 class="work__project-title">Wax Motif</h3>
-        <div class="work__img-wrapper work__image1">
-          <img class="lazy loading" src="https://via.placeholder.com/900" data-src="/waxmoney.png"
-            alt="Wax Motif website" />
-        </div>
-        <div class="work__project work__content1">
-          <h3 class="work__project-subtitle">Wax Motif</h3>
-          <p class="work__project-description1">
-            Labore magna ut non labore Lorem nisi culpa sint et quis sint.
-            Enim pariatur deserunt do ad exercitation.
-          </p>
-          <p class="work__project-description2">
-            Ea ut non cupidatat consequat sint elit ipsum culpa dolor cillum
-            commodo. Do esse excepteur cillum deserunt duis incididunt. Eu
-            tempor ullamco aliqua consectetur incididunt anim dolor sunt
-            laboris adipisicing cupidatat sint.
-          </p>
-          <a class="btn work__project-btn" href="#">Website</a>
-        </div>
-      </div> -->
-    </section>
-
-    <section id="contact" class="contact container section">
-      <h2 class="contact__title">Get In Contact</h2>
-      <p class="contact__description">
-        This website is here to stay and my goal is to update as often as possible. If you ever need to reach out to me
-        go ahead and contact me through Linkedin
-        or wait untill I implement a comments section to this website. Eventually...
-      </p>
-      <!-- This call to action button is temperaraly stoped -->
-      <!-- <a class="contact__btn btn" href="mailto:angelyairmendezsandoval.io@gmail.com" target="_blank">Reach out</a> -->
-      <div>
-        <a class="contact__btn btn" href="mailto:angelyairmendezsandoval@gmail.com" target="_blank">Send an email</a>
-        <a class="contact__btn btn" href="https://www.linkedin.com/in/angel-yair-mendez-sandoval/"
-          target="_blank">Linkedin</a>
-      </div>
-
     </section>
   </main>
+
   <footer class="footer container section">
     <h3 class="footer__title">
       .... . .-.. .-.. ---

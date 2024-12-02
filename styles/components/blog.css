@@ -1,0 +1,166 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.blog__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.blog__title {
+  font-size: var(--size-2xl);
+  color: var(--clr-light);
+}
+
+.blog__description {
+  max-width: 60ch;
+  font-size: var(--size-sm);
+  color: var(--clr-neutral600);
+}
+
+.blog__hr {
+  border-color: var(--clr-neutral800);
+}
+
+.blog__subtitle {
+  font-size: var(--size-sm);
+  color: var(--clr-neutral400);
+}
+
+.blog__ul-container {
+  display: flex;
+}
+
+.blog__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  list-style-type: '\2606';
+  padding-left: 1em;
+  flex: 1;
+}
+
+.blog__list {
+  font-size: var(--size-sm);
+  color: var(--clr-neutral600);
+}
+
+.blog__list::before {
+  content: '';
+  margin-left: 0.5em;
+}
+
+.blog__img-wrapper {
+  width: 19rem;
+  margin: 0 auto;
+}
+.blog__img {
+  /* have not made the calculation for correct size */
+  width: 19rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .blog {
+    gap: 1.5rem;
+  }
+
+  .blog__content {
+    gap: 1.5rem;
+  }
+
+  .blog__title {
+    font-size: var(--size-3xl);
+  }
+
+  .blog__description {
+    font-size: var(--size-base);
+  }
+
+  .blog__subtitle {
+    font-size: var(--size-base);
+  }
+
+  .blog__list {
+    font-size: var(--size-base);
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .blog__img-wrapper {
+    width: 19rem;
+    margin: 0 auto;
+  }
+/* 1 rem = 16 px */
+    /* 304 / 16 = 19 */
+  .blog__img {
+    width: 19rem;
+  }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .blog {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .blog__title {
+    font-size: var(--size-4xl);
+  }
+
+  .blog__description {
+    font-size: var(--size-lg);
+  }
+
+  .blog__subtitle {
+    font-size: var(--size-lg);
+  }
+
+  .blog__list {
+    font-size: var(--size-lg);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .blog__content {
+    gap: 2rem;
+  }
+
+  .blog__title {
+    font-size: var(--size-5xl);
+  }
+
+  .blog__description {
+    font-size: var(--size-xl);
+  }
+
+  .blog__subtitle {
+    font-size: var(--size-xl);
+  }
+
+  .blog__list {
+    font-size: var(--size-xl);
+  }
+
+  .blog__img-wrapper {
+    width: 19rem;
+    margin: 0 auto;
+  }
+  .blog__img {
+    /* have not made the calculation for correct size */
+    width: 19rem;
+  }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
